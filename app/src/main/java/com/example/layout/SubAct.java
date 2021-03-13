@@ -14,6 +14,7 @@ public class SubAct extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // 위에 나오는 제목 제거
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_sub);
 
